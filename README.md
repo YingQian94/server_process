@@ -1,7 +1,7 @@
 # server_process
 进程池版图像服务器
 
- ![image]（https://github.com/YingQian94/server_process/blob/master/server_process/model.png）
+ ![image](https://github.com/YingQian94/server_process/blob/master/server_process/model.png)
 
 1.主进程负责监听listenfd上的新连接
 
