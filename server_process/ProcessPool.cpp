@@ -35,6 +35,7 @@ ProcessPool::ProcessPool(int listenfd,int process_number):
             continue;
         }
         else{                                   //子进程
+            m_sub_process[i].m_pid=0;
             close(m_sub_process[i].m_pipefd[0]);
             m_idx=i;
             //run_child();

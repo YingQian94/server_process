@@ -11,7 +11,7 @@ int main(int argc,char * argv[])
         if(pid == 0) 
         { 
             for(int j=0;j<20;++j)
-                execl("/home/ubuntu/server_process/client","./client", "2","/home/ubuntu/timg2.jpg","/home/ubuntu/clientImg/",
+                execl("/home/ubuntu/server_vProcess/server_process/client","./client", "2","/home/ubuntu/timg2.jpg","/home/ubuntu/clientImg/",
                 "2","/home/ubuntu/timg4.jpg","/home/ubuntu/clientImg/","3",(char *)0); 
             return(0); 
         } 
